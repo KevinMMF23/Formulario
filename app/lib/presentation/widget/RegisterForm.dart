@@ -1,5 +1,5 @@
+import 'package:app/presentation/widget/input/custom_text_form_field.dart';
 import 'package:flutter/material.dart';
-import 'package:uso_de_formularios/presentation/witget/input/custom_text_form_field.dart';
 
 class RegisterForm extends StatefulWidget {
   /// Es un formulario customizado [ Form ] que extiende de un widget de tipo [ StatefulWidget ]

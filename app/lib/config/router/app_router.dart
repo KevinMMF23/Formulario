@@ -1,5 +1,6 @@
-import 'package:go_router/go_router.dart';
-import 'package:uso_de_formularios/presentation/screens/screens.dart';
+import 'package:app/presentation/screens/home_screen.dart';
+import 'package:app/presentation/screens/register_screen.dart';
+
 
 final appRouter = GoRouter(routes: [
   GoRoute(
