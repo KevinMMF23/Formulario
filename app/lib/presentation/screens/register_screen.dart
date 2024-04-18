@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uso_de_formularios/presentation/witget/RegisterForm.dart';
 
 class RegisterScreen extends StatelessWidget {
   const RegisterScreen({super.key});
@@ -15,10 +16,25 @@ class RegisterScreen extends StatelessWidget {
 }
 
 class _RegisterView extends StatelessWidget {
-  const _RegisterView({super.key});
+  const _RegisterView();
 
   @override
   Widget build(BuildContext context) {
-    return TextFormField();
+    return const SafeArea(
+      child: Padding(
+        padding: EdgeInsets.symmetric(horizontal: 10),
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              FlutterLogo(size: 500),
+              RegisterForm(),
+              SizedBox(
+                height: 20,
+              )
+            ],
+          ),
+        ),
+      ),
+    );
   }
 }
